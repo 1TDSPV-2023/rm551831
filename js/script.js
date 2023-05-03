@@ -17,5 +17,15 @@
 
 
 //Recuperar um elemento do HTML com a função getElementById(parâmetro)
-const mn = document.getElementById("menu");
-console.log(mn.textContent);
+// const mn = document.getElementById("menu");
+//console.log(mn.textContext);
+
+//Recuperando uma collection de elementos...
+const aElements = document.getElementsByTagName("a");
+
+//Declarando um array em JavaScript
+let nr1 = [1,2,3,4,5];
+let nr2 = [6,7,8,9,10];
+
+console.log(nr1);
+console.log(nr2);
