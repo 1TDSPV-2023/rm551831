@@ -29,3 +29,5 @@ let nr2 = [6,7,8,9,10];
 
 console.log(nr1);
 console.log(nr2);
+nr2.push(11);
+console.log(nr2);
