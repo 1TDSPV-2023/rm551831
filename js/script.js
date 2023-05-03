@@ -22,14 +22,28 @@
 
 //Recuperando uma collection de elementos...
 const aElements = document.getElementsByTagName("a");
+const aElementsArray = [...aElements];
+aElementsArray.forEach((a)=>{
+    console.log(a);
+});
 
 //Declarando um array em JavaScript
 let nr1 = [1,2,3,4,5];
 let nr2 = [6,7,8,9,10];
-let nr3 = [nr1, nr2];
+//let nr3 = [nr1, nr2];
 console.log(nr1);
 console.log(nr2);
-// console.log("NOVO ARRAY" + nr3);
 
-nr3.forEach();
+//OPERADOR SPREAD:...
+let nr3 = [...nr1,...nr2];
+console.log("NOVO ARRAY" + nr3);
 
+//nr3.forEach( (numero)=>{
+  //  console.log("ITEM DO ARRAY:" + numero);
+//} );
+//Exercicio-1
+
+const botao = document.querySelector("div > button");
+botao.addEventListener("click" , ()=>{
+    alert("TCHAU!!!!");
+});
